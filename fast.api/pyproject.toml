@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "FastAPI Server"
+version = "0.1.0"
+description = ""
+authors = ["Nikolay <nchernov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "*"
+requests = "*"
+uvicorn = "*"
+fastapi-pagination = "*"
+python-jose = "*"
+passlib = "*"
+pydantic = "*"
+python-dotenv = "*"
+python-multipart = "*"
+bcrypt = "*"
+asyncpg = "*"
+SQLAlchemy = "*"
+email-validator = "*"
+psycopg2-binary = "*"
+alembic = "*"
+invoke = "*"
+ipython = "*"
+sqlmodel = "^0.0.6"
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+pytest = "*"
+black = "*"
+asynctest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

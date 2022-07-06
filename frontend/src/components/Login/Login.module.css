@@ -1,0 +1,60 @@
+form {
+    margin: 20px 0 20px 20px;
+
+    display: table;
+}
+
+p {
+    margin-top: 40px;
+
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    display: table-cell;
+}
+
+form button {
+    width: fit-content;
+
+    margin-top: 10px;
+}
+
+.okMessage {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    height: 40px;
+    width: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: blue;
+    border-radius: 10px;
+    background: aquamarine;
+}
+
+.errorMessage {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    height: 50px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: firebrick;
+    border-radius: 10px;
+    background: lightcoral;
+}
